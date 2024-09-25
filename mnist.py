@@ -1,6 +1,7 @@
 import numpy as np
-from keras.datasets import mnist
-from keras.utils import np_utils
+from tensorflow.keras.datasets import mnist
+import tensorflow.keras.utils as np_utils
+
 
 from dense import Dense
 from activations import Tanh
